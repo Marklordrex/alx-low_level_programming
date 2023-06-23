@@ -1,24 +1,17 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - Make alphabet x10 times
- * Return: void
+ * _islower - Check for lowercase character
+ * @c: The character to be check3d
+ * Return: 1 for lowercase character or 0 for anything else
  */
 
-void print_alphabet_x10(void)
-
+int _islower(int c)
 {
 
-	char c;
-	int i = 0;
-
-	while (i <= 9)
+	if (c >= 97 && c <= 122)
 	{
-		for (c = 'a'; c <= 'z'; c++)
-		{
-			_putchar(c);
-		}
-		_putchar('\n');
-		i++;
+		return (1);
 	}
+	return (0);
 }
