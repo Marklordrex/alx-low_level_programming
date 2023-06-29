@@ -26,7 +26,7 @@ longi++;
 
 }
 
-t = longi -1;
+t = longi - 1;
 
 for (o = 0 ; o <= t; o++)
 {
